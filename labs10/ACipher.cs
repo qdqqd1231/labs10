@@ -13,6 +13,7 @@ namespace labs10
         string output = "";
         public string Encode(string s)
         {
+            output = "";
             int index;
             foreach (var ch in s)
             {

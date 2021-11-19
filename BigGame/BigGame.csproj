@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F437E7D-AA72-4E30-B07E-D7EB4034DDB5}</ProjectGuid>
+    <ProjectGuid>{B83B28C8-F179-4AB9-95D2-D2FC5C1F65D9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>labs10</RootNamespace>
-    <AssemblyName>labs10</AssemblyName>
+    <RootNamespace>BigGame</RootNamespace>
+    <AssemblyName>BigGame</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,15 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ACipher.cs" />
-    <Compile Include="BCipher.cs" />
-    <Compile Include="Oracle.cs" />
-    <Compile Include="Figure.cs" />
-    <Compile Include="ICipher.cs" />
-    <Compile Include="Point.cs" />
+    <Compile Include="Games\Fishing.cs" />
+    <Compile Include="Games\Beach.cs" />
+    <Compile Include="Games\Hill.cs" />
+    <Compile Include="IGame.cs" />
+    <Compile Include="Games\Mousetrap.cs" />
+    <Compile Include="Games\Postmen.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rectangle.cs" />
+    <Compile Include="Games\Sea.cs" />
+    <Compile Include="Team.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
